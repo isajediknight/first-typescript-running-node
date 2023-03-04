@@ -1,0 +1,20 @@
+{
+  "name": "first-typescript-running-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/isajediknight/first-typescript-running-node.git",
+  "author": "isajediknight <luke@isajediknight.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.ts"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "nodemon": "^2.0.21",
+    "typescript": "^4.9.5"
+  }
+}
