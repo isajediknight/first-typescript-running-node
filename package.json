@@ -6,7 +6,8 @@
   "author": "isajediknight <luke@isajediknight.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon src/index.ts"
+    "dev": "nodemon src/index.ts",
+    "build": "tsc --project ."
   },
   "dependencies": {
     "express": "^4.18.2",
